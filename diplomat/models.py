@@ -4,7 +4,7 @@ import re
 from autoslug import AutoSlugField
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from django.utils.encoding import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 
 import pycountry
 

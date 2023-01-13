@@ -1,2 +1,3 @@
 django-autoslug
 pycountry
+six
